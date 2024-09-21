@@ -3,10 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const About = () => {
   return (
-    <Container id="about">
+    <Container id="about" >
+      <br />
+       <h2>About Me</h2>
       <Row>
-        <Col>
-          <h2>About Me</h2>
+        <Col >
+         
           <p> Welcome to my web developer portfolio! I'm Gowri, a skilled and
             creative web developer with a passion for creating beautiful,
             responsive, and user-friendly websites. I've worked on a variety of

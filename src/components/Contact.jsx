@@ -4,13 +4,17 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Contact = () => {
   return (
-    <Container id="contact">
+    <Container id="contact ">
+<br />
+<h2>Contact Me</h2>  
       <Row>
+      
         <Col>
-        <h2>Contact Me</h2>  
+       
         <p>Email: gowribalan@example.com
           <br />
-        Phone no : 0480-2345676</p> 
+        Phone no : 0480-2345676</p>
+        
         </Col>
       </Row>
     </Container>

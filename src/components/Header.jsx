@@ -1,18 +1,20 @@
 import React from 'react';
-import { Navbar, Nav, Button } from 'react-bootstrap';
+import { Navbar, Nav, Button} from 'react-bootstrap';
+ 
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-    <div className="container">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary ">
+    <div className="container ">
       <a className="navbar-brand" href="#">
         Gowri Balan
       <img
               src="vite.svg"
               width="30"
               height="30"
-              className="d-inline-block align-top"
-              alt="Profile logo"
+              className="d-inline-block align-top "
+              alt="Profile logo" 
+              
             />
       </a>
       <button
