@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Row, Col, Card ,Image} from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
 
 const Projects = () => {
   return (
