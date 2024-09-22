@@ -1,6 +1,5 @@
-import React from 'react'
-import { Navbar , Nav ,Button , Card} from 'react-bootstrap';
- 
+import React from 'react';
+
  
 const Header = () => {
   return (
@@ -56,6 +55,6 @@ const Header = () => {
   </nav>
   
   );
-};
+}
 
 export default Header;
