@@ -1,9 +1,10 @@
 import React from 'react';
+import { Nav,Button} from 'react-bootstrap';
 
  
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary text-light "> 
+    <Nav className="navbar navbar-expand-lg bg-body-tertiary text-light "> 
     <div className="container bg-dark   ">
       <a className="navbar-brand text-light " href="#">
         Gowri Balan
@@ -16,7 +17,7 @@ const Header = () => {
               
             />
       </a>
-      <button
+      <Button
         className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
@@ -26,7 +27,7 @@ const Header = () => {
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon" />
-      </button>
+      </Button>
       <div className="collapse navbar-collapse justify-content-end  " id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
@@ -52,7 +53,7 @@ const Header = () => {
         </ul>
       </div>
     </div>
-  </nav>
+  </Nav>
   
   );
 }
