@@ -1,12 +1,12 @@
-import React from 'react';
-import { Navbar, Nav, Button} from 'react-bootstrap';
+import React from 'react'
+import { Navbar , Nav ,Button , Card} from 'react-bootstrap';
  
-
+ 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary ">
-    <div className="container">
-      <a className="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary text-light "> 
+    <div className="container bg-dark   ">
+      <a className="navbar-brand text-light " href="#">
         Gowri Balan
       <img
               src="vite.svg"
@@ -28,25 +28,25 @@ const Header = () => {
       >
         <span className="navbar-toggler-icon" />
       </button>
-      <div className="collapse navbar-collapse justify-content-end " id="navbarNav">
+      <div className="collapse navbar-collapse justify-content-end  " id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">
+            <a className="nav-link active text-light" aria-current="page" href="#">
               Home
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#about">
+            <a className="nav-link text-light" href="#about">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#projects">
+            <a className="nav-link text-light" href="#projects">
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link " href="#contact">
+            <a className="nav-link text-light " href="#contact">
               Contact
             </a>
           </li>
@@ -55,7 +55,7 @@ const Header = () => {
     </div>
   </nav>
   
-  )
-}
+  );
+};
 
 export default Header;
