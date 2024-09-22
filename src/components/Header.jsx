@@ -18,8 +18,8 @@ const Header = () => {
             />
       </a>
       <Button
-        className="navbar-toggler"
-        type="button"
+        className="navbar-toggler bg-light"
+        type="button" 
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
         aria-controls="navbarNav"
