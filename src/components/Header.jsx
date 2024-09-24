@@ -5,7 +5,7 @@ import { Nav,Button} from 'react-bootstrap';
 const Header = () => {
   return (
     <Nav className="navbar navbar-expand-lg bg-body-tertiary text-light "> 
-    <div className="container bg-dark   ">
+    <div className="container-fluid bg-dark   ">
       <a className="navbar-brand text-light " href="#">
         Gowri Balan
       <img
