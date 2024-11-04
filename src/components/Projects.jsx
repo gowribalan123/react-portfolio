@@ -11,12 +11,12 @@ const Projects = () => {
       <Row>
         <Col>
         <Card style={{ width: '20rem' }}>
-      <Card.Img variant="top" src="kerala.jpeg" height={80}/>
+      <Card.Img variant="top" src="kerala.jpeg" height={100}/>
       <Card.Body>
         <Card.Title>Kerala Tourism</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+         Skills used :-
+         HTML5 , Javascript , CSS3 , Bootstrap5 ,  Git
         </Card.Text>
       </Card.Body>
       
@@ -31,12 +31,12 @@ const Projects = () => {
 
        <Col>
        <Card style={{ width: '20rem' }}>
-      <Card.Img variant="top" src="profilecard.jpeg" height={80}/>
+      <Card.Img variant="top" src="profilecard.jpeg" height={100}/>
       <Card.Body>
         <Card.Title>Profile Card</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Skills used :-
+        HTML5 , Javascript , CSS3 , Bootstrap5 ,  Git
         </Card.Text>
       </Card.Body>
       
@@ -48,12 +48,12 @@ const Projects = () => {
        </Col>
        <Col>
        <Card style={{ width: '20rem' }}>
-      <Card.Img variant="top" src="entri.jpeg" height={80}/>
+      <Card.Img variant="top" src="entri.jpeg" height={100}/>
       <Card.Body>
         <Card.Title>Entri Academia</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Skills used :-
+        HTML5 , Javascript , CSS3 , Bootstrap5 , Git
         </Card.Text>
       </Card.Body>
       
@@ -72,12 +72,12 @@ const Projects = () => {
      < Row>
      <Col>
        <Card style={{ width: '20rem' }}>
-      <Card.Img variant="top" src="inquire mart.jpeg" height={80}/>
+      <Card.Img variant="top" src="inquire mart.jpeg" height={100}/>
       <Card.Body>
         <Card.Title>Inquire Mart</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Skills used :-
+        HTML5 , Javascript , CSS3 , Bootstrap5 , React.js , Express.js , Node.js , Git
         </Card.Text>
       </Card.Body>
       
@@ -88,6 +88,27 @@ const Projects = () => {
     </Card>
 
        </Col>
+
+
+       <Col>
+       <Card style={{ width: '20rem' }}>
+      <Card.Img variant="top" src="weather dashboard.jpeg" height={100}/>
+      <Card.Body>
+        <Card.Title>Weather Dashboard</Card.Title>
+        <Card.Text>
+        Skills used :-
+        HTML5 , Javascript , CSS3 , Bootstrap5  , React.js , Node.js , Git
+        </Card.Text>
+      </Card.Body>
+      
+      <Card.Body>
+        <Card.Link href="https://gowribalan123.github.io/react-weather-dashboard/">Inquire Mart</Card.Link>
+        
+      </Card.Body>
+    </Card>
+
+       </Col>
+       
      </Row>
 
     </Container>
