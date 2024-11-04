@@ -102,7 +102,7 @@ const Projects = () => {
       </Card.Body>
       
       <Card.Body>
-        <Card.Link href="https://gowribalan123.github.io/react-weather-dashboard/">Inquire Mart</Card.Link>
+        <Card.Link href="https://gowribalan123.github.io/react-weather-dashboard/">Weather Dashboard</Card.Link>
         
       </Card.Body>
     </Card>
