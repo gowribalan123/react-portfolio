@@ -133,7 +133,7 @@ const Projects = () => {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="https://gowribalan123.github.io/KeralaTourismNew/alappuzha.html/">Alappuzha Tourism</Card.Link>
+              <Card.Link href="https://gowribalan123.github.io/KeralaTourismNew/alappuzha.html">Alappuzha Tourism</Card.Link>
             </Card.Body>
           </Card>
         </Col>
