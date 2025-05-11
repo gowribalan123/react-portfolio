@@ -11,7 +11,7 @@ const Contact = () => {
             <Card.Body>
               <Card.Title style={{ fontWeight: 'bold' }}>Get in Touch</Card.Title>
               <Card.Text>
-                <p>Email: <a href="mailto:gowribalan@example.com">gowribalanak@gmail.com</a></p>
+                <p>Email: <a href="mailto:gowribalan@gmail.com">gowribalanak@gmail.com</a></p>
                 <p>Phone: <a href="tel:+918943153347">91-8943153347</a></p>
               </Card.Text>
             </Card.Body>

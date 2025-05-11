@@ -2,22 +2,12 @@
 *{
     margin: 0;
     padding: 0;
-    
+   
     box-sizing: border-box;
     font-family: "poppins";
    
 }
-body{
-
-
-    display:flex;
-    align-items: center;
-    justify-content: center;
-   
-   
-   
-
-}
+ 
 header {  
     background: #333;  
     color: #fff;  

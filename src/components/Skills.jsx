@@ -9,14 +9,18 @@ const Skills = () => {
        <h2>Skills</h2>
       <Row>
         <Col >
-        <h6> Front End</h6>
-        
-        </Col>
-        <Col >
-        Back End
-        </Col>
-        <Col >
-        Database
+ 
+          <ul className="list-bullet">
+            <li>C, C++, Java</li>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>React, Redux</li>
+            <li>Node.js, Express</li>
+            <li>MongoDB, SQL</li>
+            <li>Bootstrap, Tailwind CSS</li>
+          </ul>
+          <p className="mt-4">
+            Fun Fact: I love exploring new technologies and continuously learning to improve my skills!
+          </p>
         </Col>
       </Row>
       
