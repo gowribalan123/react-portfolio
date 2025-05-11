@@ -6,7 +6,7 @@ const Navigation = () => {
     <Navbar>
          <Navbar.Brand href="#home">
             <img
-              src="vite.svg"
+              src="gb.png"
               width="30"
               height="30"
               className="d-inline-block align-top"

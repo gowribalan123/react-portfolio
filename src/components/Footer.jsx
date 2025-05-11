@@ -3,13 +3,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light text-center p-3">
+    <footer style={{ backgroundColor: '#69f094', color: 'black', textAlign: 'center', padding: '20px 0' }}>
       <Container id="footer">
         <Row>
           <Col>
-          
-        
-            <p>© {new Date().getFullYear()} Gowri . All rights reserved.</p>
+            <p style={{ margin: 0 }}>© {new Date().getFullYear()} Gowri. All rights reserved.</p>
           </Col>
         </Row>
       </Container>

@@ -1,0 +1,27 @@
+/* Header.css */
+.navbar {
+    background-color: #69f094; /* Dark background */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Larger brand text */
+    font-weight:bolder; /* Bold brand text */
+  }
+  
+  .nav-link {
+    color: #775656; /* White text for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .nav-link:hover {
+    color: #d90707; /* Change color on hover */
+  }
+  
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1); /* Light border for toggler */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  

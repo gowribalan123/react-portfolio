@@ -1,0 +1,13 @@
+/* styles.css */
+.card-link {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .card-link:hover {
+    color: #0056b3; /* Darker shade on hover */
+    text-decoration: underline; /* Underline on hover for emphasis */
+  }
+  
