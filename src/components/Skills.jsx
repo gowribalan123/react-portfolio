@@ -18,9 +18,7 @@ const Skills = () => {
             <li>MongoDB, SQL</li>
             <li>Bootstrap, Tailwind CSS</li>
           </ul>
-          <p className="mt-4">
-            Fun Fact: I love exploring new technologies and continuously learning to improve my skills!
-          </p>
+         
         </Col>
       </Row>
       
